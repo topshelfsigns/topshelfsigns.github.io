@@ -69,7 +69,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   /*background: #18BC9C;*/
-  background-image:url("../img/header.jpg");      
+  background-image:url("../img/header.jpg");         
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -522,4 +522,9 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+
+.logo{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
